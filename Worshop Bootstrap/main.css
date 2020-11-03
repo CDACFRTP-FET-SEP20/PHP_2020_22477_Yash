@@ -1,0 +1,21 @@
+body{
+    background: url("./bg1.jpg") fixed;
+    background-size: cover;
+}
+
+.form-horizontal {
+   max-width: 550px;
+   padding: 15px;
+   margin: 0 auto;
+   border-radius: 0.3em;
+   background-color: lightskyblue;
+}
+
+.form-horizontal h1 { 
+   font-weight: bold;
+   color: #000000;
+   margin-top: 5%;
+   text-align: center;
+   text-transform: uppercase;
+}
+

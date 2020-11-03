@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop</title>
+    <script src="./jquery-3.5.1.js"></script>
+    <script src="./main.js"></script>
+    <style>
+        .circleRed {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background: red;
+            display: inline-block;
+        }
+        .circleOrange {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+           background-color: orange;
+            display: inline-block;
+        }
+        .circleYellow{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background:yellow;
+            display: inline-block;
+        }
+
+        button{
+            background-color: grey;
+            color: white;
+            border: 2px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <button id="b1">Show Red</button>
+    <button id="b2">Show Yellow</button>
+    <button id="b3">Show Orange</button>
+    <button id="b4">Show All</button>
+
+    <br><br>
+    <div style="float: inline-start;">
+        <span class="circleRed"></span>
+        <span class="circleOrange"></span>
+        <span class="circleYellow"></span>
+        <span class="circleRed"></span>
+        <span class="circleOrange"></span>
+        <span class="circleYellow"></span>
+        <span class="circleOrange"></span>
+    </div>
+</body>
+
+</html>

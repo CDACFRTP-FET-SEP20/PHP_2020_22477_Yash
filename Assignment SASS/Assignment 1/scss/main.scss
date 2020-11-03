@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'vairables1';
+@import 'variables2';
+
+#text1{
+    border-radius: $bRadius;
+    width: $width;
+    height: $height;
+    font-style: $fontStyle;
+    font-size: $fsize;
+    padding-left: $paddingl;
+    color: $color;
+    background-color: $bgcolor;
+}
+ 
+#text2{
+    border: $brdr;
+    background-color: $bcolor;
+    color: $fcolor;
+    cursor: not-allowed;
+    
+}
+
+#text3{
+    border: $bdr;
+    background-color: $bcolour;
+    color: $clr;
+}

@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <title>
+            REGISTRATION FORM 
+        </title>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            /* Create two equal columns that floats next to each other */
+            .column {
+              float: left;
+              width: 50%;
+              padding: 10px;
+              height: 700px; /* Should be removed. Only for demonstration */
+            }
+            
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            body{
+                margin-left: 150px;
+            }
+            input{
+                height: 18px;
+            }
+            </style>
+    </head>
+    <body>
+        <h3 style="font-style: bold; margin-left: 190px;">REGISTRATION FORM</h3>
+        <fieldset style="width: 600px;">
+           
+            <form action= "./fsuccess.html">
+
+           
+      
+        <div class="row">
+            <div class="column" style="background-color:#aaa;">
+             <hr>
+              <label>
+                  EMPLOYEE ID::
+              </label>
+              <hr>
+              <label>
+                First Name::
+            </label><hr>
+            <label>
+                Last Name::
+            </label>
+            <hr>
+            <label>
+                Departmennt::
+            </label><br><br><br><br><br><br>
+            <hr>
+            <label>
+                Email::
+            </label>
+            <hr>
+            <label>
+                Contact No.::
+            </label>
+            <hr>
+            <label>
+                Address::
+            </label><br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <label>
+                Training Program To be Attended::
+            </label><br>
+            <br>
+            <br><br><br><br><br><br>
+            <hr>
+            <br><br>
+            <hr>
+
+             
+            </div>
+            <div class="column" style="background-color:#bbb;">
+             
+             <hr>
+             <input type="number" id="id" requird min="10001" max="15000" style="text-decoration: black,2px;">
+             <hr>
+             <input type="text" id="fname" placeholder="First Name" required minlength="3" maxlength="15" pattern="^[a-zA-Z]{3,15}">
+             <hr>
+             <input type="text" id="lname"placeholder="Last Name"  minlength="3" maxlength="15" required pattern="^[a-zA-Z]{3,15}">
+             <hr>
+             <input type="radio" id="it" name="department" value="it">
+             <label for="it">IT</label><br>
+             <input type="radio" id="hr" name="department" value="hr">
+             <label for="hr">HR</label><br>
+             <input type="radio" id="finance" name="department" value="finance">
+             <label for="finance">Finance</label><br>
+             <input type="radio" id="admin" name="department" value="admin">
+             <label for="admin">Admin</label><br>
+             <hr>
+             <input type="email" id="email" requird>
+             <hr>
+             <input type="tel" id="contact" requird minlength="10" maxlength="10">
+             <hr>
+             <input type="text" id="adress" style="height: 97px;" required>
+             <hr>
+             <input type="checkbox" id="1" name="1" value="webbsics">
+                <label for="1"> Web Basics</label><br>
+                <input type="checkbox" id="2" name="2" value="c">
+                <label for="2"> C#</label><br>
+                <input type="checkbox" id="3" name="3" value="entityframework">
+                <label for="3"> Entity Framework</label><br>
+                <input type="checkbox" id="4" name="4" value="aspnetmvc">
+                <label for="4"> ASP.NET.MVC</label><br>
+                <hr>
+
+                <button style="height:25px;" id="btn1" type="submit">REGISTER</button>
+                <button style="height: 25px;"type="reset" id="btn2">CANCEL</button><br><br>
+                
+                <hr>
+
+           
+            </div>
+          </div>
+        </form>
+        </fieldset>
+    </body>
+</html>
